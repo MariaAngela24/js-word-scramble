@@ -33,7 +33,8 @@
 
 
             // prompt the user with a pop up box to guess the original word when given the scrambled word
-            var userGuess = prompt("Guess the unscrambled word: ");
+            var userGuess = prompt("Guess the unscrambled word: ").toLowerCase().trim();
+
             
             // If the user guesses wrong, tell them they were wrong and the right word.
             // If the user guesses the correct word, congratulate them.
